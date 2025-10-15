@@ -1,0 +1,68 @@
+# ---------------------------------------------
+# GITIGNORE - HELDER v3
+# ---------------------------------------------
+
+# 🐍 Ambiente virtual
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# 🔬 Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nbconvert.py
+
+# 🧠 Arquivos temporários e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🪣 Cache de pacotes e builds
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 📦 Dependências instaladas localmente
+pip-wheel-metadata/
+*.whl
+
+# 🧪 Arquivos de testes
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# 🧰 Configurações locais / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📊 Dados e resultados de notebooks
+# *.csv
+*.tsv
+*.log
+*.out
+*.dat
+*.tmp
+*.bak
+*.db
+*.sqlite3
+*.json
+*.zip
+
+# 📷 Imagens ou saídas geradas (opcional)
+output/
+results/
+plots/
+figures/
+
+# 🧩 Sistema operacional
+.DS_Store
+Thumbs.db
